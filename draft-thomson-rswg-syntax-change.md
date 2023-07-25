@@ -71,7 +71,7 @@ Existing RFCs can be updated to use the new format.  The RFC that describes
 format changes can also describe how the XML of existing RFCs will be updated.
 
 Updates to the XML format need to ensure that any change to existing RFCs
-preserves - to the greatest extent possible - the semantics expressed in the
+preserves -- to the greatest extent possible -- the semantics expressed in the
 original RFC.  That is, the intent is that changes only update the XML syntax,
 they do not alter the semantics that are expressed using that syntax.
 
