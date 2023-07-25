@@ -7,7 +7,6 @@ stream: editorial
 number:
 updates: 7990
 date:
-consensus: true
 v: 3
 area: "RFC Editor"
 workgroup: "RFC Series Working Group"
@@ -61,7 +60,7 @@ understand all iterations of the format.
 
 The RFC Series Working Group (RSWG), constituted by {{!RFC9280}}, acts as
 custodian for the RFC XML format.  If the RSWG reaches consensus, they can
-propose a revision to the XML format.  
+propose a revision to the XML format.
 
 The RSWG publishes an RFC on the Editorial stream that describes the format
 change.  An updated XML format is used for the publication of new RFCs.  Some
