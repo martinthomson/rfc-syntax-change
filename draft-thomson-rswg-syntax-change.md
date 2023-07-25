@@ -56,7 +56,7 @@ format across the series.  Tools that seek to process RFC XML would need to
 understand all iterations of the format.
 
 
-# Syntax Change Process
+# Syntax Change Policy
 
 The RFC Series Working Group (RSWG), constituted by {{!RFC9280}}, acts as
 custodian for the RFC XML format.  If the RSWG reaches consensus, they can
