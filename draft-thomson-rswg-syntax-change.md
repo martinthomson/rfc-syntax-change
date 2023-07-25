@@ -26,7 +26,7 @@ author:
  -
     fullname: Your Name Here
     organization: Your Organization Here
-    email: your.email@example.com
+    email: "mt@lowentropy.net"
 
 normative:
 
