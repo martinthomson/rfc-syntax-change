@@ -3,7 +3,7 @@ title: "Changing XML Syntax for RFCs"
 category: info
 
 docname: draft-thomson-rswg-syntax-change-latest
-submissiontype: Editorial
+submissiontype:
 number:
 date:
 consensus: true
