@@ -36,8 +36,8 @@ informative:
 --- abstract
 
 The authoritative version of RFCs are published in an XML format.  This format
-is chosen for its ability to capture semantic details.  A high-level process is
-described for the revision of the RFC XML format.
+is chosen for its ability to capture semantic details.  A policy governing how
+the RFC XML format changes is described.
 
 --- middle
 
@@ -46,9 +46,9 @@ described for the revision of the RFC XML format.
 The canonical format for published RFCs is XML {{!RFC7990}}.  Historically, the
 published version of an RFC has been immutable ({{Section 7.6 of ?RFC9280}}).
 
-The RFC format {{?RFC7991}} is not able to address use cases that were not
-originally anticipated.  It might also be possible to improve the format to
-better capture meaning.
+The RFC XML format {{?RFC7991}} is not able to address use cases that were not
+originally anticipated during its design.  It might also be possible to improve
+the format to better capture meaning.
 
 Though it might be possible to evolve the format and only use the new format for
 the publication of new RFCs, this would mean that there would be no single
@@ -60,7 +60,7 @@ understand all iterations of the format.
 
 The RFC Series Working Group (RSWG), constituted by {{!RFC9280}}, acts as
 custodian for the RFC XML format.  If the RSWG reaches consensus, they can
-propose a revision to the XML format.
+propose a revision to the RFC XML format.
 
 The RSWG publishes an RFC on the Editorial stream that describes the format
 change.  An updated XML format is used for the publication of new RFCs.  Some
@@ -70,7 +70,7 @@ documents.
 Existing RFCs can be updated to use the new format.  The RFC that describes
 format changes can also describe how the XML of existing RFCs will be updated.
 
-Updates to the XML format need to ensure that any change to existing RFCs
+Updates to the RFC XML format need to ensure that any change to existing RFCs
 preserves -- to the greatest extent possible -- the semantics expressed in the
 original RFC.  That is, the intent is that changes only update the XML syntax,
 they do not alter the semantics that are expressed using that syntax.
@@ -84,30 +84,30 @@ those risks.
 
 ## Canonical Version
 
-When the XML for an existing RFC is updated, the updated XML becomes the
-canonical version of that RFC.
+When the RFC XML for an RFC is updated, the updated document becomes
+the canonical version of that RFC.
 
 
 ## Archival
 
-When RFC XML is updated, the updated version of the document shall be archived
-in addition to the existing version.
+When the RFC XML of an RFC is updated, the updated document shall be archived in
+addition to the existing version.
 
-This document does not specify how archives are maintained or how archived XML
-might be located or identified.
+This document does not specify how archives are maintained or how archived RFC
+XML might be located or identified.
 
 
 ## Publication Formats
 
-Publication formats are produced from the XML format.  As XML changes,
-publication formats necessarily change, even if this might not result in
-observable differences.  Similarly, as production tools change, publication
-formats can be regenerated to ensure a consistent presentation across the
-series.
+Publication formats are produced from the RFC XML format.  As the RFC XML format
+of a document changes, publication formats can change, even if this might not
+result in observable differences.  Similarly, as production tools change,
+publication formats can be regenerated to ensure a consistent presentation
+across the series.
 
 Publication formats -- or the contexts in which they are displayed -- can
-optionally provide additional details of the specific XML version that they were
-generated from, or provide a means to discover alternative renderings.
+optionally provide additional details of the specific RFC XML version that they
+were generated from, or provide a means to discover alternative renderings.
 
 This document does not stipulate whether production formats are archived.
 
