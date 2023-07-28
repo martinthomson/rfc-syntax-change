@@ -75,6 +75,12 @@ preserves -- to the greatest extent possible -- the semantics expressed in the
 original RFC.  That is, the intent is that changes only update the XML syntax,
 they do not alter the semantics that are expressed using that syntax.
 
+The intent behind limiting changes to syntax only is that the goal is to
+preserve the semantic meaning encoded in the RFC XML document.  While, stream
+procedures formally establish agreement or consensus about a specific artifact
+-- RFC XML in particular -- it is the semantic meaning expressed in that
+document that is important.
+
 This process does not require that updates to XML avoid all risk of introducing
 semantic changes to existing RFCs.  Instead, it only requires that the RSWG
 carefully consider the potential for semantic changes, take steps to understand
