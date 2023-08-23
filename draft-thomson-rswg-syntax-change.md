@@ -109,7 +109,7 @@ Publication formats -- or the contexts in which they are displayed -- can
 optionally provide additional details of the specific RFC XML version that they
 were generated from, or provide a means to discover alternative renderings.
 
-This document does not stipulate whether production formats are archived.
+This document does not stipulate whether publication formats are archived.
 
 
 # Security Considerations
