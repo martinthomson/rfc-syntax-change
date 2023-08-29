@@ -1,0 +1,129 @@
+{
+  "magic": "E!vIA5L86J2I",
+  "timestamp": "2023-08-29T01:13:26.556611+00:00",
+  "repo": "martinthomson/rfc-syntax-change",
+  "labels": [
+    {
+      "name": "bug",
+      "description": "Something isn't working",
+      "color": "d73a4a"
+    },
+    {
+      "name": "documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "name": "duplicate",
+      "description": "This issue or pull request already exists",
+      "color": "cfd3d7"
+    },
+    {
+      "name": "enhancement",
+      "description": "New feature or request",
+      "color": "a2eeef"
+    },
+    {
+      "name": "good first issue",
+      "description": "Good for newcomers",
+      "color": "7057ff"
+    },
+    {
+      "name": "help wanted",
+      "description": "Extra attention is needed",
+      "color": "008672"
+    },
+    {
+      "name": "invalid",
+      "description": "This doesn't seem right",
+      "color": "e4e669"
+    },
+    {
+      "name": "question",
+      "description": "Further information is requested",
+      "color": "d876e3"
+    },
+    {
+      "name": "wontfix",
+      "description": "This will not be worked on",
+      "color": "ffffff"
+    }
+  ],
+  "issues": [],
+  "pulls": [
+    {
+      "number": 1,
+      "id": "PR_kwDOJ_qhpM5WsOKA",
+      "title": "Try to capture intent",
+      "url": "https://github.com/martinthomson/rfc-syntax-change/pull/1",
+      "state": "OPEN",
+      "author": "martinthomson",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2023-07-28T21:16:44Z",
+      "updatedAt": "2023-07-28T21:16:45Z",
+      "baseRepository": "martinthomson/rfc-syntax-change",
+      "baseRefName": "main",
+      "baseRefOid": "c1539910f141a1569fc93fac04f6ef9ba352331f",
+      "headRepository": "martinthomson/rfc-syntax-change",
+      "headRefName": "intent",
+      "headRefOid": "74a848b1f2c6f23d7edf775dbf26a27a05ad85da",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 2,
+      "id": "PR_kwDOJ_qhpM5XJ-S8",
+      "title": "Archives shall record the date",
+      "url": "https://github.com/martinthomson/rfc-syntax-change/pull/2",
+      "state": "OPEN",
+      "author": "martinthomson",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "This is what archives do, so it's almost redundant to say this, but it's a reasonable thing to say and worthwhile being clear.\r\n\r\nBased on feedback from @becarpenter",
+      "createdAt": "2023-08-04T01:53:49Z",
+      "updatedAt": "2023-08-04T14:19:23Z",
+      "baseRepository": "martinthomson/rfc-syntax-change",
+      "baseRefName": "main",
+      "baseRefOid": "c1539910f141a1569fc93fac04f6ef9ba352331f",
+      "headRepository": "martinthomson/rfc-syntax-change",
+      "headRefName": "archive-date",
+      "headRefOid": "ceb14718e175616fdddecebb47cf2e5f12f38e60",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "becarpenter",
+          "authorAssociation": "NONE",
+          "body": "WFM, thanks!",
+          "createdAt": "2023-08-04T02:35:20Z",
+          "updatedAt": "2023-08-04T02:35:20Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJ_qhpM5dKRAu",
+          "commit": {
+            "abbreviatedOid": "ceb1471"
+          },
+          "author": "mcr",
+          "authorAssociation": "NONE",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2023-08-04T14:19:23Z",
+          "updatedAt": "2023-08-04T14:19:23Z",
+          "comments": []
+        }
+      ]
+    }
+  ]
+}
