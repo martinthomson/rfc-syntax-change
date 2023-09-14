@@ -91,7 +91,8 @@ the canonical version of that RFC.
 ## Archival
 
 When the RFC XML of an RFC is updated, the updated document shall be archived in
-addition to the existing version.
+addition to the existing version.  Any archive shall record the date that a
+document was created or revised.
 
 This document does not specify how archives are maintained or how archived RFC
 XML might be located or identified.
