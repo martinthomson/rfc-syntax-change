@@ -4,9 +4,9 @@
 
 RFC Series Working Group                                      M. Thomson
 Internet-Draft                                                   Mozilla
-Updates: 7990 (if approved)                               23 August 2023
+Updates: 7990 (if approved)                            14 September 2023
 Intended status: Informational                                          
-Expires: 24 February 2024
+Expires: 17 March 2024
 
 
                       Changing XML Syntax for RFCs
@@ -51,7 +51,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 24 February 2024.
+   This Internet-Draft will expire on 17 March 2024.
 
 Copyright Notice
 
@@ -130,7 +130,8 @@ Table of Contents
 2.2.  Archival
 
    When the RFC XML of an RFC is updated, the updated document shall be
-   archived in addition to the existing version.
+   archived in addition to the existing version.  Any archive shall
+   record the date that a document was created or revised.
 
    This document does not specify how archives are maintained or how
    archived RFC XML might be located or identified.
