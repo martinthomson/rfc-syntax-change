@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2023-09-14T01:12:46.629502+00:00",
+  "timestamp": "2023-09-17T01:17:36.686101+00:00",
   "repo": "martinthomson/rfc-syntax-change",
   "labels": [
     {
@@ -82,24 +82,26 @@
       "id": "PR_kwDOJ_qhpM5XJ-S8",
       "title": "Archives shall record the date",
       "url": "https://github.com/martinthomson/rfc-syntax-change/pull/2",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "martinthomson",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "This is what archives do, so it's almost redundant to say this, but it's a reasonable thing to say and worthwhile being clear.\r\n\r\nBased on feedback from @becarpenter",
       "createdAt": "2023-08-04T01:53:49Z",
-      "updatedAt": "2023-08-04T14:19:23Z",
+      "updatedAt": "2023-09-14T09:51:38Z",
       "baseRepository": "martinthomson/rfc-syntax-change",
       "baseRefName": "main",
       "baseRefOid": "c1539910f141a1569fc93fac04f6ef9ba352331f",
       "headRepository": "martinthomson/rfc-syntax-change",
       "headRefName": "archive-date",
       "headRefOid": "ceb14718e175616fdddecebb47cf2e5f12f38e60",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2023-09-14T09:51:33Z",
+      "mergedAt": "2023-09-14T09:51:33Z",
+      "mergedBy": "martinthomson",
+      "mergeCommit": {
+        "oid": "de03a99f878c24ccb31cdd039e3242f1e7182696"
+      },
       "comments": [
         {
           "author": "becarpenter",
