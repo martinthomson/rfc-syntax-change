@@ -133,9 +133,45 @@ This document has no IANA actions.
 
 --- back
 
+# Advice on Regenerating Publication Formats
+
+This document does not include specific guidance regarding the generation of
+publication formats from RFC XML source.  Decisions about how to maintain
+publication formats is not a matter governed by the policy in RFC 9280
+{{?RFC9280}}.  This section contains advice and considerations for the process
+of regeneration that came out of discussions of the policy changes in this
+document.
+
+Changes to the RFC XML for existing documents might result in changes to
+publication formats.  At the same time, the tools used to generate publication
+formats are under active maintenance.  Regeneration of publication formats will
+use updated tools, a goal supported by the policy changes in this document.
+
+
+This creates a risk that publications formats change in unexpected ways when
+they are regenerated.  This risk of unintentional change can be managed by
+implementing validation processes:
+
+1. Tools can be continuously checked by regenerating publication formats for
+   existing RFCs and any change in the resulting output can be validated.  This
+   will ensure that changes in tooling are deliberate and understood.
+
+2. When a change to XML occurs, publication formats can be regenerated and any
+   change in the resulting output can be validated.
+
+Validation should be aided by automated tooling that is able to disregard
+inconsequential changes, like changes in timestamps and other annotations.
+Validation of tooling can be continuous, for which automation is essential.
+
+In both cases, the decision to make regenerated publication formats available is
+a decision that can be made on a case-by-case basis.  Making regenerated
+publication formats available more often could mean a greater risk that people
+seeking to read RFCs will obtain a copy that contains accidental errors.
+
+
 # Acknowledgments
 {:numbered="false"}
 
-Thanks to Paul Hoffman, John Levine, Pete Resnick, and Alexis Rossi for
-constructive discussions about how the evolution of the RFC XML format might be
-managed.
+Thanks to Paul Hoffman, Eliot Lear, John Levine, Pete Resnick, and Alexis Rossi
+for constructive discussions about how the evolution of the RFC XML format might
+be managed.
