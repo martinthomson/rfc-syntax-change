@@ -142,31 +142,37 @@ publication formats are not a matter governed by policy as specified in RFC 9280
 of regeneration that came out of discussions of the policy changes in this
 document.
 
-Changes to the RFC XML for existing documents might result in changes to
-publication formats.  At the same time, the tools used to generate publication
-formats are under active maintenance.  Regeneration of publication formats will
-use updated tools, a goal supported by the policy changes in this document.
+Changes to the RFC XML for existing documents might result in changes to the
+documents rendered from that XML.  At the same time, the tools used to generate
+rendered documents are under active maintenance.  Having it be possible for
+rendered documents to replace existing publication formats is a goal supported
+by the policy changes in this document.
 
-
-This creates a risk that publications formats change in unexpected ways when
+This creates a risk that rendered documents change in unexpected ways when
 they are regenerated.  This risk of unintentional change can be managed by
 implementing validation processes:
 
-1. Tools can be continuously checked by regenerating publication formats for
-   existing RFCs and any change in the resulting output can be validated.  This
-   will ensure that changes in tooling are deliberate and understood.
+1. Tools can be continuously checked by producing rendered documents for
+   existing RFCs.  Any change in the rendered document can then be compared with
+   previous outputs and validated.  This will ensure that changes in tooling are
+   deliberate and understood.
 
-2. When a change to XML occurs, publication formats can be regenerated and any
+2. When a change to XML occurs, rendered documents can be regenerated and any
    change in the resulting output can be validated.
 
 Validation should be aided by automated tooling that is able to disregard
 inconsequential changes, like changes in timestamps and other annotations.
 Validation of tooling can be continuous, for which automation is essential.
 
-In both cases, the decision to make regenerated publication formats available is
-a decision that can be made on a case-by-case basis.  Making regenerated
-publication formats available more often could mean a greater risk that people
-seeking to read RFCs will obtain a copy that contains accidental errors.
+In both cases, the decision to make rendered documents available as the
+publication format for an RFC is a decision that can be made on a case-by-case
+basis.  Making rendered documents available more often could mean a greater risk
+that people seeking to read RFCs will obtain a copy that contains accidental
+errors.  Conversely, errors in publication formats might persist if they are not
+replaced as tool quality and reliability improves.
+
+Old copies of replaced publication formats could be retained to provide the
+ability to isolate changes and understand the evolution of documents.
 
 
 # Acknowledgments
