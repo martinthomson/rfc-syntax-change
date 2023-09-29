@@ -137,7 +137,7 @@ This document has no IANA actions.
 
 This document does not include specific guidance regarding the generation of
 publication formats from RFC XML source.  Decisions about how to maintain
-publication formats is not a matter governed by the policy in RFC 9280
+publication formats are not a matter governed by policy as specified in RFC 9280
 {{?RFC9280}}.  This section contains advice and considerations for the process
 of regeneration that came out of discussions of the policy changes in this
 document.
