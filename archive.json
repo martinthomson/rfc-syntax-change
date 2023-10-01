@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2023-09-28T01:14:11.155307+00:00",
+  "timestamp": "2023-10-01T01:23:42.071699+00:00",
   "repo": "martinthomson/rfc-syntax-change",
   "labels": [
     {
@@ -56,24 +56,26 @@
       "id": "PR_kwDOJ_qhpM5WsOKA",
       "title": "Try to capture intent",
       "url": "https://github.com/martinthomson/rfc-syntax-change/pull/1",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "martinthomson",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2023-07-28T21:16:44Z",
-      "updatedAt": "2023-07-28T21:16:45Z",
+      "updatedAt": "2023-09-28T21:45:55Z",
       "baseRepository": "martinthomson/rfc-syntax-change",
       "baseRefName": "main",
       "baseRefOid": "c1539910f141a1569fc93fac04f6ef9ba352331f",
       "headRepository": "martinthomson/rfc-syntax-change",
       "headRefName": "intent",
       "headRefOid": "74a848b1f2c6f23d7edf775dbf26a27a05ad85da",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2023-09-28T21:45:55Z",
+      "mergedAt": "2023-09-28T21:45:55Z",
+      "mergedBy": "martinthomson",
+      "mergeCommit": {
+        "oid": "0e3669adb20897af3068a8a51d7a202e232ef1ba"
+      },
       "comments": [],
       "reviews": []
     },
@@ -124,6 +126,87 @@
           "createdAt": "2023-08-04T14:19:23Z",
           "updatedAt": "2023-08-04T14:19:23Z",
           "comments": []
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "id": "PR_kwDOJ_qhpM5bfhJf",
+      "title": "Advice about publication format regeneration",
+      "url": "https://github.com/martinthomson/rfc-syntax-change/pull/3",
+      "state": "OPEN",
+      "author": "martinthomson",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "The discussion at the interim highlighted that there were things we wanted to say about regeneration, but that we really didn't want to be prescriptive about it.  This attempts to balance the desire to stay out of it with the desire to not stay out of it.",
+      "createdAt": "2023-09-29T00:08:00Z",
+      "updatedAt": "2023-09-29T04:14:23Z",
+      "baseRepository": "martinthomson/rfc-syntax-change",
+      "baseRefName": "main",
+      "baseRefOid": "0e3669adb20897af3068a8a51d7a202e232ef1ba",
+      "headRepository": "martinthomson/rfc-syntax-change",
+      "headRefName": "advice-regeneration",
+      "headRefOid": "55f49631eadcb5e23b46e81d2c2aa30cfbe83fc1",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "ekr",
+          "authorAssociation": "NONE",
+          "body": "I think I would suggest using the words \"rendered versions\" rather than \"publication formats\" here.",
+          "createdAt": "2023-09-29T03:54:19Z",
+          "updatedAt": "2023-09-29T03:54:19Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJ_qhpM5iWJY8",
+          "commit": {
+            "abbreviatedOid": "7d6f7c6"
+          },
+          "author": "ekr",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2023-09-29T02:45:54Z",
+          "updatedAt": "2023-09-29T02:48:04Z",
+          "comments": [
+            {
+              "originalPosition": 8,
+              "body": "```suggestion\r\npublication formats are not a matter governed by policy as specified in RFC 9280\r\n```",
+              "createdAt": "2023-09-29T02:45:54Z",
+              "updatedAt": "2023-09-29T02:48:04Z"
+            },
+            {
+              "originalPosition": 14,
+              "body": "My argument here is that \"HTML\" is a publication format. That's not really metonymy for the published version",
+              "createdAt": "2023-09-29T02:47:31Z",
+              "updatedAt": "2023-09-29T02:48:04Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJ_qhpM5iWP28",
+          "commit": {
+            "abbreviatedOid": "7d6f7c6"
+          },
+          "author": "martinthomson",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2023-09-29T03:46:03Z",
+          "updatedAt": "2023-09-29T03:46:04Z",
+          "comments": [
+            {
+              "originalPosition": 14,
+              "body": "I tried to capture that (rather subtle) distinction here, but probably failed.  Your point about generating, but not necessarily using, the HTML and whatnot was well made, I thought.",
+              "createdAt": "2023-09-29T03:46:04Z",
+              "updatedAt": "2023-09-29T03:46:04Z"
+            }
+          ]
         }
       ]
     }
