@@ -106,11 +106,13 @@ XML might be located or identified.
 
 ## Publication Formats
 
-Publication formats are produced from the RFC XML format.  As the RFC XML format
-of a document changes, publication formats can change, even if this might not
-result in observable differences.  Similarly, as production tools change,
-publication formats can be regenerated to ensure a consistent presentation
-across the series.
+Publication formats are produced from the RFC XML format.  As noted in {{Section
+10.2 of !RFC7990}}, "publication formats may be republished as needed".
+
+As the RFC XML format of a document changes, publication formats can change,
+even if this might not result in observable differences.  Similarly, as
+production tools change, publication formats can be regenerated to ensure a
+consistent presentation across the series.
 
 Publication formats -- or the contexts in which they are displayed -- can
 optionally provide additional details of the specific RFC XML version that they
