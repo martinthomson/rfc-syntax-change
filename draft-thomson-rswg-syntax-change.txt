@@ -4,9 +4,9 @@
 
 RFC Series Working Group                                      M. Thomson
 Internet-Draft                                                   Mozilla
-Updates: 7990 (if approved)                            28 September 2023
+Updates: 7990 (if approved)                               3 October 2023
 Intended status: Informational                                          
-Expires: 31 March 2024
+Expires: 5 April 2024
 
 
                       Changing XML Syntax for RFCs
@@ -51,7 +51,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 31 March 2024.
+   This Internet-Draft will expire on 5 April 2024.
 
 Copyright Notice
 
@@ -76,6 +76,7 @@ Table of Contents
    5.  References
      5.1.  Normative References
      5.2.  Informative References
+   Appendix A.  Advice on Regenerating Publication Formats
    Acknowledgments
    Author's Address
 
@@ -144,11 +145,14 @@ Table of Contents
 
 2.3.  Publication Formats
 
-   Publication formats are produced from the RFC XML format.  As the RFC
-   XML format of a document changes, publication formats can change,
-   even if this might not result in observable differences.  Similarly,
-   as production tools change, publication formats can be regenerated to
-   ensure a consistent presentation across the series.
+   Publication formats are produced from the RFC XML format.  As noted
+   in Section 10.2 of [RFC7990], "publication formats may be republished
+   as needed".
+
+   As the RFC XML format of a document changes, publication formats can
+   change, even if this might not result in observable differences.
+   Similarly, as production tools change, publication formats can be
+   regenerated to ensure a consistent presentation across the series.
 
    Publication formats -- or the contexts in which they are displayed --
    can optionally provide additional details of the specific RFC XML
@@ -187,11 +191,55 @@ Table of Contents
               RFC 7991, DOI 10.17487/RFC7991, December 2016,
               <https://www.rfc-editor.org/rfc/rfc7991>.
 
+Appendix A.  Advice on Regenerating Publication Formats
+
+   This document does not include specific guidance regarding the
+   generation of publication formats from RFC XML source.  Decisions
+   about how to maintain publication formats are not a matter governed
+   by policy as specified in RFC 9280 [RFC9280].  This section contains
+   advice and considerations for the process of regeneration that came
+   out of discussions of the policy changes in this document.
+
+   Changes to the RFC XML for existing documents might result in changes
+   to the documents rendered from that XML.  At the same time, the tools
+   used to generate renderings are under active maintenance.  Having it
+   be possible for a fresh rendering to replace existing publication
+   formats is a goal supported by the policy changes in this document.
+
+   This creates a risk that a rerendered documents change in unexpected
+   ways when they are regenerated.  This risk of unintentional change
+   can be managed by implementing validation processes:
+
+   1.  Tools can be continuously checked by producing renderings for
+       existing RFCs.  Any change in the rendered document can then be
+       compared with previous outputs and validated.  This will ensure
+       that changes in tooling are deliberate and understood.
+
+   2.  When a change to XML occurs, rendered documents can be
+       regenerated and any change in the rendering can be validated.
+
+   Validation should be aided by automated tooling that is able to
+   disregard inconsequential changes in renderings, like changes in
+   timestamps and other annotations.  Validation of tooling can be
+   continuous, for which automation is essential.
+
+   In both cases, the decision to make renderings available as the
+   publication format for an RFC is a decision that can be made on a
+   case-by-case basis.  Making fresh renderings available more often
+   could mean a greater risk that people seeking to read RFCs will
+   obtain a copy that contains accidental errors.  At the same time,
+   errors in publication formats might persist if they are not replaced
+   as tool quality and reliability improves.
+
+   Old copies of replaced publication formats could be retained to
+   provide the ability to isolate changes and understand the evolution
+   of documents.
+
 Acknowledgments
 
-   Thanks to Paul Hoffman, John Levine, Pete Resnick, and Alexis Rossi
-   for constructive discussions about how the evolution of the RFC XML
-   format might be managed.
+   Thanks to Paul Hoffman, Eliot Lear, John Levine, Pete Resnick, and
+   Alexis Rossi for constructive discussions about how the evolution of
+   the RFC XML format might be managed.
 
 Author's Address
 
