@@ -4,9 +4,9 @@
 
 RFC Series Working Group                                      M. Thomson
 Internet-Draft                                                   Mozilla
-Updates: 7990 (if approved)                            29 September 2023
+Updates: 7990 (if approved)                               3 October 2023
 Intended status: Informational                                          
-Expires: 1 April 2024
+Expires: 5 April 2024
 
 
                       Changing XML Syntax for RFCs
@@ -51,7 +51,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 1 April 2024.
+   This Internet-Draft will expire on 5 April 2024.
 
 Copyright Notice
 
@@ -145,11 +145,14 @@ Table of Contents
 
 2.3.  Publication Formats
 
-   Publication formats are produced from the RFC XML format.  As the RFC
-   XML format of a document changes, publication formats can change,
-   even if this might not result in observable differences.  Similarly,
-   as production tools change, publication formats can be regenerated to
-   ensure a consistent presentation across the series.
+   Publication formats are produced from the RFC XML format.  As noted
+   in Section 10.2 of [RFC7990], "publication formats may be republished
+   as needed".
+
+   As the RFC XML format of a document changes, publication formats can
+   change, even if this might not result in observable differences.
+   Similarly, as production tools change, publication formats can be
+   regenerated to ensure a consistent presentation across the series.
 
    Publication formats -- or the contexts in which they are displayed --
    can optionally provide additional details of the specific RFC XML
