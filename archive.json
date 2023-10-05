@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2023-10-03T01:15:15.061143+00:00",
+  "timestamp": "2023-10-05T01:14:51.111154+00:00",
   "repo": "martinthomson/rfc-syntax-change",
   "labels": [
     {
@@ -134,28 +134,30 @@
       "id": "PR_kwDOJ_qhpM5bfhJf",
       "title": "Advice about publication format regeneration",
       "url": "https://github.com/martinthomson/rfc-syntax-change/pull/3",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "martinthomson",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "The discussion at the interim highlighted that there were things we wanted to say about regeneration, but that we really didn't want to be prescriptive about it.  This attempts to balance the desire to stay out of it with the desire to not stay out of it.",
       "createdAt": "2023-09-29T00:08:00Z",
-      "updatedAt": "2023-09-29T04:14:23Z",
+      "updatedAt": "2023-10-03T23:21:42Z",
       "baseRepository": "martinthomson/rfc-syntax-change",
       "baseRefName": "main",
       "baseRefOid": "0e3669adb20897af3068a8a51d7a202e232ef1ba",
       "headRepository": "martinthomson/rfc-syntax-change",
       "headRefName": "advice-regeneration",
-      "headRefOid": "55f49631eadcb5e23b46e81d2c2aa30cfbe83fc1",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "6ed86b1bac23375f49d93ba3c322bbab3982fce9",
+      "closedAt": "2023-10-03T23:21:41Z",
+      "mergedAt": "2023-10-03T23:21:41Z",
+      "mergedBy": "martinthomson",
+      "mergeCommit": {
+        "oid": "6ed86b1bac23375f49d93ba3c322bbab3982fce9"
+      },
       "comments": [
         {
           "author": "ekr",
-          "authorAssociation": "NONE",
+          "authorAssociation": "CONTRIBUTOR",
           "body": "I think I would suggest using the words \"rendered versions\" rather than \"publication formats\" here.",
           "createdAt": "2023-09-29T03:54:19Z",
           "updatedAt": "2023-09-29T03:54:19Z"
@@ -168,7 +170,7 @@
             "abbreviatedOid": "7d6f7c6"
           },
           "author": "ekr",
-          "authorAssociation": "NONE",
+          "authorAssociation": "CONTRIBUTOR",
           "state": "COMMENTED",
           "body": "",
           "createdAt": "2023-09-29T02:45:54Z",
