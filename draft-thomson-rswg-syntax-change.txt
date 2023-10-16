@@ -4,9 +4,9 @@
 
 RFC Series Working Group                                      M. Thomson
 Internet-Draft                                                   Mozilla
-Updates: 7990 (if approved)                               3 October 2023
+Updates: 7990 (if approved)                              16 October 2023
 Intended status: Informational                                          
-Expires: 5 April 2024
+Expires: 18 April 2024
 
 
                       Changing XML Syntax for RFCs
@@ -51,7 +51,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 5 April 2024.
+   This Internet-Draft will expire on 18 April 2024.
 
 Copyright Notice
 
@@ -117,11 +117,11 @@ Table of Contents
    changes only update the XML syntax, they do not alter the semantics
    that are expressed using that syntax.
 
-   The intent behind limiting changes to syntax only is that the goal is
-   to preserve the semantic meaning encoded in the RFC XML document.
-   While, stream procedures formally establish agreement or consensus
-   about a specific artifact -- RFC XML in particular -- it is the
-   semantic meaning expressed in that document that is important.
+   The intent behind limiting changes to syntax only is to preserve the
+   semantic meaning encoded in the RFC XML document.  While, stream
+   procedures formally establish agreement or consensus about a specific
+   artifact -- RFC XML in particular -- it is the semantic meaning
+   expressed in that document that is important.
 
    This process does not require that updates to XML avoid all risk of
    introducing semantic changes to existing RFCs.  Instead, it only
