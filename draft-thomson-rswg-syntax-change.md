@@ -81,11 +81,12 @@ establish agreement or consensus about a specific artifact -- RFC XML in
 particular -- it is the semantic meaning expressed in that document that is
 important.
 
-This process does not require that updates to XML avoid all risk of introducing
-semantic changes to existing RFCs.  Instead, it only requires that the RSWG
+This policy does not require that updates to XML avoid all risk of introducing
+semantic changes to existing RFCs.  For changes that might affect many
+documents, this could be infeasible.  Instead, it only requires that the RSWG
 carefully consider the potential for semantic changes, take steps to understand
-the risk of a semantic change (either deliberate or inadvertent), and to limit
-those risks.
+the risk of a semantic change -- either deliberate or inadvertent -- and to
+limit those risks.
 
 
 ## Canonical Version
